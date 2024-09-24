@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f1f3f4;
+  max-width: 750px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+.jiuye .hd {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.559rem 0.279rem;
+}
+.jiuye .hd h5 {
+  font-size: 0.372rem;
+}
+.jiuye .hd h5::before {
+  margin-right: 0.093rem;
+}
+.jiuye .hd a {
+  color: #979a96;
+  font-size: 0.298rem;
+}
+.jiuye .bd {
+  position: relative;
+}
+.jiuye .bd .swiper {
+  width: 7rem;
+  height: 100%;
+}
+.jiuye .bd .swiper .swiper-slide {
+  text-align: center;
+  background: #fff;
+  opacity: 0.5;
+  transition: 300ms;
+  transform: scale(0.8);
+}
+.jiuye .bd .swiper .swiper-slide img {
+  width: 100%;
+  height: 5.028rem;
+  vertical-align: bottom;
+}
+.jiuye .bd .swiper .swiper-slide p {
+  padding: 0.3rem 0;
+  font-size: 0.264rem;
+  visibility: hidden;
+}
+.jiuye .bd .swiper-button-prev,
+.jiuye .bd .swiper-button-next {
+  color: #5c5b5d;
+}
+.jiuye .bd .swiper-button-prev {
+  left: calc(50% - 4rem);
+  transform: translateX(-50%);
+}
+.jiuye .bd .swiper-button-next {
+  left: calc(50% + 4rem);
+  transform: translateX(-50%);
+}
+.jiuye .bd .swiper-slide-active,
+.jiuye .bd .swiper-slide-duplicate-active {
+  transform: scaleY(1) scaleX(1.2) !important;
+  z-index: 1;
+  opacity: 1 !important;
+}
+.jiuye .bd .swiper-slide-active p,
+.jiuye .bd .swiper-slide-duplicate-active p {
+  visibility: visible !important;
+  transform: scaleX(0.83);
+}
+.chongdian {
+  margin-top: 0.186rem;
+}
+.chongdian .hd {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.559rem 0.279rem;
+}
+.chongdian .hd h5 {
+  font-size: 0.372rem;
+}
+.chongdian .hd h5::before {
+  margin-right: 0.093rem;
+}
+.chongdian .hd a {
+  color: #979a96;
+  font-size: 0.298rem;
+}
+.chongdian .bd {
+  margin: 0 0.279rem 1.49rem;
+  overflow: hidden;
+}
+.chongdian .bd .swiper {
+  width: 9.888rem;
+  height: 100%;
+  margin: 0 auto;
+}
+.chongdian .bd .swiper-slide {
+  width: 3.724rem !important;
+  font-size: 18px;
+  background: #fff;
+  border-radius: 0.093rem;
+  box-shadow: 0 0 0.186rem rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+.chongdian .bd .swiper-slide img {
+  width: 100%;
+  height: 2.793rem;
+  object-fit: cover;
+}
+.chongdian .bd .swiper-slide p {
+  padding: 0.186rem 0.093rem 0;
+}
+.chongdian .bd .swiper-slide h5 {
+  font-weight: 400;
+  color: #adb0ad;
+  padding: 0.25rem;
+}
+.chongdian .bd .swiper-slide h5 span {
+  color: #d0633e;
+}
+footer {
+  padding: 0.186rem 0;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  max-width: 750px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 10;
+  background-color: #fff;
+  border-top: 1px solid #eef1ee;
+}
+footer a {
+  flex: 1;
+  text-align: center;
+  color: #878a87;
+  font-size: 0.298rem !important;
+}
+footer a::before {
+  display: block;
+  font-size: 0.372rem;
+}
+/*# sourceMappingURL=100.css.map */

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="swiper-bundle.css">
+	<link rel="stylesheet" href="//at.alicdn.com/t/c/font_4693064_ath7e7b1mv9.css">
+	<link rel="stylesheet" href="100.css">
+	<script src="flexible.js"></script>
+</head>
+<body>
+<!--就业指导模块-->
+<div class="jiuye">
+	<div class="hd">
+		<h5 class="iconfont icon-wenhao">就业指导</h5>
+		<a href="javascript:;">更多>></a>
+	</div>
+	<div class="bd">
+		<!-- Swiper -->
+		<div class="swiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<img src="img/1.jpg" alt="">
+					<p>老师教你应对面试技巧</p>
+				</div>
+				<div class="swiper-slide">
+					<img src="img/2.jpg" alt="">
+					<p>老师教你应对面试技巧</p>
+				</div>
+				<div class="swiper-slide">
+					<img src="img/3.jpg" alt="">
+					<p>老师教你应对面试技巧</p>
+				</div>
+				<div class="swiper-slide">
+					<img src="img/4.jpg" alt="">
+					<p>老师教你应对面试技巧</p>
+				</div>
+			</div>
+		</div>
+		<div class="swiper-button-prev"></div><!--左箭头。如果放置在swiper外面，需要自定义样式。-->
+		<div class="swiper-button-next"></div><!--右箭头。如果放置在swiper外面，需要自定义样式。-->
+	</div>
+</div>
+
+<!--充电学习模块-->
+<div class="chongdian">
+	<div class="hd">
+		<h5 class="iconfont icon-chongdianbao">充电学习</h5>
+		<a href="javascript:;">更多>></a>
+	</div>
+	<div class="bd">
+		<!-- Swiper -->
+		<div class="swiper mySwiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<img src="img/12.jpg" alt="">
+					<p>说地道英语，告别中式英语</p>
+					<h5><span>156</span>人学习</h5>
+				</div>
+				<div class="swiper-slide">
+					<img src="img/11.jpg" alt="">
+					<p>说地道英语，告别中式英语</p>
+					<h5><span>156</span>人学习</h5>
+				</div>
+				<div class="swiper-slide">
+					<img src="img/10.jpg" alt="">
+					<p>说地道英语，告别中式英语</p>
+					<h5><span>156</span>人学习</h5>
+				</div>
+				<div class="swiper-slide">
+					<img src="img/9.jpg" alt="">
+					<p>说地道英语，告别中式英语</p>
+					<h5><span>156</span>人学习</h5>
+				</div>
+				<div class="swiper-slide">
+					<img src="img/8.jpg" alt="">
+					<p>说地道英语，告别中式英语</p>
+					<h5><span>156</span>人学习</h5>
+				</div>
+				<div class="swiper-slide">
+					<img src="img/7.jpg" alt="">
+					<p>说地道英语，告别中式英语</p>
+					<h5><span>156</span>人学习</h5>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--底部模块-->
+<footer>
+	<a href="javascript:;" class="iconfont icon-home">
+		首页
+	</a>
+	<a href="javascript:;" class="iconfont icon-mianshi-mianshijian">
+		技术面试
+	</a>
+	<a href="javascript:;" class="iconfont icon-monimianshi">
+		模拟面试
+	</a>
+	<a href="javascript:;" class="iconfont icon-wodezhuyeicon">
+		我的主页
+	</a>
+</footer>
+
+<script src="swiper-bundle.js"></script>
+<!-- Initialize Swiper -->
+<script>
+	let swiper = new Swiper('.jiuye .swiper', {
+		slidesPerView: 2,
+		centeredSlides: true,
+		loop: true,
+		navigation: {
+			nextEl: '.swiper-button-next',
+			prevEl: '.swiper-button-prev',
+		},
+	});
+	
+	let myswiper = new Swiper(".chongdian .mySwiper", {
+		slidesPerView: 2.5,
+		spaceBetween: 10,
+		pagination: {
+			el: ".swiper-pagination",
+			clickable: true,
+		},
+	});
+</script>
+</body>
+</html>
